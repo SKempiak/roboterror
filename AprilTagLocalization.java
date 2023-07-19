@@ -78,9 +78,6 @@ public class AprilTagLocalization {
         return new Pose2d(x, y, new Rotation2d(h));
     }
 
-}
-
-class assistedTuning {
     public Pose2d startPos = new Pose2d(0,0, new Rotation2d(0));
 
     public void setStartPos(Pose2d ATag) {
